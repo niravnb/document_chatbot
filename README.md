@@ -1,2 +1,3 @@
-# document_chatbot
-Chatbot using Retrieval Augmented Generation on documents
+# Chatbot using Retrieval Augmented Generation on documents
+
+Given a knowledge document over which you need to build a chatbot using Retrieval Augmented Generation (RAG). The RAG module should be capable of receiving user questions as input and will need to output an answer to it based on the knowledge provided in the document. As the name suggests, the RAG module would need a retrieval phase that finds the necessary context from the knowledge document based on the user’s question; and a Generation phase powered by LLM that can personalize answers per the user question using the retrieved knowledge. You are free to use an LLM orchestrator like Langchain, etc.
