@@ -1,8 +1,9 @@
-# Chatbot using Retrieval Augmented Generation (RAG) on Knowledge base
+# Chatbot using Retrieval Augmented Generation (RAG) on the Knowledge base
 
 This project aims to develop a chatbot using the Retrieval Augmented Generation (RAG) framework to answer user questions based on a given knowledge document accurately. The chatbot consists of two essential phases: retrieval and generation. The retrieval phase involves identifying the relevant context from the knowledge document based on the user's question, while the generation phase leverages a powerful Large Language Model (LLM) to personalize the answers using the retrieved knowledge. The project utilizes an LLM orchestrator like Langchain to streamline the development process.
 
-Main Features
+## Main Features
+
 RAG-based Chatbot: Build a chatbot that can receive user questions and generate appropriate answers using the RAG framework. The chatbot should be capable of retrieving relevant information from the knowledge document and generating personalized responses based on the retrieved knowledge.
 
 Prevent Hallucination: Implement mechanisms to ensure that the chatbot avoids generating inaccurate or false information, thus ensuring the reliability and trustworthiness of its responses.
